@@ -1,6 +1,6 @@
 #  Google Sheet - Telegram Bot | RemindMe Bot
 
-This project is a simple telegram bot connected to a google sheet.
+This project is a simple personal telegram bot connected to a google sheet.
 
 ## Video Demonstration
 https://youtu.be/MFKLa266tDs
@@ -48,12 +48,12 @@ The commands are:
 ## Sample Code taken from the App
 
 /* Constants definition */
-var key = "2021059655:AAEFvwy7M5JzR_40abnb2knoj60ko8SN7P8";
+var key = <insert_key_here>;
 var url = "https://api.telegram.org/bot" + key;
-var appUrl = "https://script.google.com/macros/s/AKfycbw1os3K4Sk1rZUGT1xjNRo5CYETbueEaMPsHktNHDcYpt3sd6w/exec"
-var sheetId = "1fCZHlkokbLbVxGGzA16a8-tgZ1u26Gw7Ukh2hwebiTM"
+var appUrl = "https://script.google.com/macros/s/<url>/exec"
+var sheetId = <sheet_id>;
 var today = Utilities.formatDate(new Date(), "GMT+8", "dd/MM/yyyy")
-var eugId = 1858258485;
+var eugId = <telegram_id>;
 
 
 
